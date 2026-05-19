@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+/* Markdown table styling */
+.prose table {
+  @apply w-full text-sm border-collapse my-3;
+}
+.prose thead tr {
+  @apply bg-gray-50 border-b border-gray-200;
+}
+.prose th {
+  @apply px-3 py-2 text-left font-semibold text-gray-700 text-xs uppercase tracking-wide;
+}
+.prose td {
+  @apply px-3 py-2 border-b border-gray-100 text-gray-700;
+}
+.prose tr:last-child td {
+  @apply border-b-0;
+}
+.prose tr:hover td {
+  @apply bg-gray-50;
+}
+
+/* Code blocks */
+.prose code {
+  @apply bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-xs font-mono;
+}
+.prose pre {
+  @apply bg-gray-900 text-gray-100 rounded-lg p-4 overflow-x-auto;
+}
+.prose pre code {
+  @apply bg-transparent text-gray-100 p-0;
+}
