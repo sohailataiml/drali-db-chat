@@ -139,7 +139,3 @@ npm run start
 - It is recommended that the database user configured in `DATABASE_URL` be scoped with **read-only, least-privilege access** appropriate to this assistant's purpose.
 
 ---
-
-## Maintainer
-
-Developed and maintained by **Techrizq** for Dr. Ali Plastic Surgery & AMAE Med Spa.
